@@ -1,9 +1,4 @@
 <?php
-/*
-  |--------------------------------------
-  |   中文语言包
-  |--------------------------------------
- */
 
 return [
 
@@ -18,9 +13,9 @@ return [
       |
      */
 
-    'password' => '密码必须六位并且正确.',
-    'user'     => '邮件地址不存在.',
-    'token'    => '密码重置令牌无效.',
-    'sent'     => '我们已经发送了一个密码重置连接!',
-    'reset'    => '您的的密码已经重置!',
+    'password' => 'Passwords must be at least six characters and match the confirmation.',
+    'user'     => "We can't find a user with that e-mail address.",
+    'token'    => 'This password reset token is invalid.',
+    'sent'     => 'We have e-mailed your password reset link!',
+    'reset'    => 'Your password has been reset!',
 ];
