@@ -1,4 +1,4 @@
-- Faveo Version : #.#.#
+- Amtel Version : #.#.#
 - PHP version :
 - Database Driver & Version :
 - Server specification :
