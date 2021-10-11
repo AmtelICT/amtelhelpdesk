@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Faveo | HELP DESK</title>
+        <title>Amtel | HELP DESK</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- faveo favicon -->
         <link href="{{asset("lb-faveo/media/images/favicon.ico")}}" rel="shortcut icon">
@@ -40,6 +40,8 @@
         <!-- Colorpicker -->
 
         <link href="{{asset("lb-faveo/plugins/colorpicker/bootstrap-colorpicker.min.css")}}" rel="stylesheet" type="text/css" />    
+   
+
         
          <script src="{{asset("lb-faveo/js/jquery-3.4.1.min.js")}}" type="text/javascript"></script>
          <script src="{{asset("lb-faveo/js/jquery-migrate.js")}}" type="text/javascript"></script>
@@ -762,7 +764,7 @@
                     <span style="font-weight: 500">{!! Lang::get('lang.version') !!}</span> {!! Config::get('app.version') !!}
                 </div>
 
-                <span style="font-weight: 500">{!! Lang::get('lang.copyright') !!} &copy; {!! date('Y') !!}  <a href="{!! $company->website !!}" target="_blank">{!! $company->company_name !!}</a>.</span> {!! Lang::get('lang.all_rights_reserved') !!}. {!! Lang::get('lang.powered_by') !!} <a href="http://www.faveohelpdesk.com/" target="_blank">Faveo</a>
+                <span style="font-weight: 500">{!! Lang::get('lang.copyright') !!} &copy; {!! date('Y') !!}  <a href="{!! $company->website !!}" target="_blank">{!! $company->company_name !!}</a>.</span> {!! Lang::get('lang.all_rights_reserved') !!}. {!! Lang::get('lang.powered_by') !!} <a href="http://www.faveohelpdesk.com/" target="_blank">AmtelkomICT</a>
             </footer>
         </div><!-- ./wrapper -->
 
