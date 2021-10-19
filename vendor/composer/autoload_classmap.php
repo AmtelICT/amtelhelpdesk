@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Absolute_Positioner' => $vendorDir . '/dompdf/dompdf/include/absolute_positioner.cls.php',
     'Abstract_Renderer' => $vendorDir . '/dompdf/dompdf/include/abstract_renderer.cls.php',
+    'AddAgentsToTicketsTable' => $baseDir . '/database/migrations/2021_10_19_074828_add_agents_to_tickets_table.php',
     'AddForeignKeysToCannedResponseTable' => $baseDir . '/database/migrations/2016_02_16_140454_add_foreign_keys_to_canned_response_table.php',
     'AddForeignKeysToDepartmentTable' => $baseDir . '/database/migrations/2016_02_16_140454_add_foreign_keys_to_department_table.php',
     'AddForeignKeysToEmailsTable' => $baseDir . '/database/migrations/2016_02_16_140454_add_foreign_keys_to_emails_table.php',
@@ -53,7 +54,6 @@ return array(
     'Codacy\\Coverage\\Util\\CodacyApiClient' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Util/CodacyApiClient.php',
     'Codacy\\Coverage\\Util\\GitClient' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Util/GitClient.php',
     'Codacy\\Coverage\\Util\\JsonProducer' => $vendorDir . '/codacy/coverage/src/Codacy/Coverage/Util/JsonProducer.php',
-    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'CreateApiSettingsTable' => $baseDir . '/database/migrations/2016_05_11_105244_create_api_settings_table.php',
     'CreateBanlistTable' => $baseDir . '/database/migrations/2016_02_16_140450_create_banlist_table.php',
     'CreateBarNotificationsTable' => $baseDir . '/database/migrations/2016_05_10_102604_create_bar_notifications_table.php',

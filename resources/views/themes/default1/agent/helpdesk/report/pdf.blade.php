@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
+
+<html><head>
         <title>PDF</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <style type="text/css">
@@ -9,8 +8,7 @@
             }
         </style>
         <link href="{{asset("lb-faveo/css/bootstrap.min.css")}}" rel="stylesheet" type="text/css" />
-    </head>
-    <body>    
+    </head> <body>    
 
         <div style="background-color:#F2F2F2;">
             <h2>
@@ -113,5 +111,4 @@
         </table>    
 
 
-    </body>
-</html>
+    </body></html>

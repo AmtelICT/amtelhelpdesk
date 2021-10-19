@@ -706,6 +706,7 @@ class ComposerStaticInit598add4b9b35c76d3599603201ccdd6d
     public static $classMap = array (
         'Absolute_Positioner' => __DIR__ . '/..' . '/dompdf/dompdf/include/absolute_positioner.cls.php',
         'Abstract_Renderer' => __DIR__ . '/..' . '/dompdf/dompdf/include/abstract_renderer.cls.php',
+        'AddAgentsToTicketsTable' => __DIR__ . '/../..' . '/database/migrations/2021_10_19_074828_add_agents_to_tickets_table.php',
         'AddForeignKeysToCannedResponseTable' => __DIR__ . '/../..' . '/database/migrations/2016_02_16_140454_add_foreign_keys_to_canned_response_table.php',
         'AddForeignKeysToDepartmentTable' => __DIR__ . '/../..' . '/database/migrations/2016_02_16_140454_add_foreign_keys_to_department_table.php',
         'AddForeignKeysToEmailsTable' => __DIR__ . '/../..' . '/database/migrations/2016_02_16_140454_add_foreign_keys_to_emails_table.php',
@@ -751,7 +752,6 @@ class ComposerStaticInit598add4b9b35c76d3599603201ccdd6d
         'Codacy\\Coverage\\Util\\CodacyApiClient' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/CodacyApiClient.php',
         'Codacy\\Coverage\\Util\\GitClient' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/GitClient.php',
         'Codacy\\Coverage\\Util\\JsonProducer' => __DIR__ . '/..' . '/codacy/coverage/src/Codacy/Coverage/Util/JsonProducer.php',
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CreateApiSettingsTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_11_105244_create_api_settings_table.php',
         'CreateBanlistTable' => __DIR__ . '/../..' . '/database/migrations/2016_02_16_140450_create_banlist_table.php',
         'CreateBarNotificationsTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_10_102604_create_bar_notifications_table.php',
