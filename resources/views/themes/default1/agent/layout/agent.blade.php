@@ -141,13 +141,13 @@
                             {!! Lang::get('lang.dashboard') !!}
                         </a>
                     </li>
-                    
+                    @if($auth_user_role == 'admin')
                     <li class="nav-item d-none d-sm-inline-block">
                         <a href="#tab_user" data-toggle="tab" @yield('Users') class="nav-link" onclick="clickUser(event);" id="user_tab">
                             {!! Lang::get('lang.users') !!}
                         </a>
                     </li>
-                    
+                    @endif
                     <li class="nav-item d-none d-sm-inline-block">
                         <a href="#tab_ticket" data-toggle="tab" @yield('Tickets') class="nav-link" onclick="clickTickets(event);" id="ticket_tab">
                             {!! Lang::get('lang.tickets') !!}
